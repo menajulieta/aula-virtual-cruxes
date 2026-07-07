@@ -9,11 +9,7 @@ Este proyecto es una aplicación web construida con React y Vite.
 
 ## Instalación
 
-1. Abre una terminal en la carpeta del proyecto:
-
-   ```bash
-   cd c:/Users/fmerc/OneDrive/Desktop/aula-virtual-cruxes
-   ```
+1. Clonar el repositorio y abrir una terminal en la carpeta del proyecto
 
 2. Instala las dependencias:
 
@@ -31,31 +27,6 @@ npm run dev
 
 Luego abre la URL que indica la terminal (generalmente `http://localhost:5173`).
 
-## Generar versión de producción
-
-Para compilar la aplicación para producción:
-
-```bash
-npm run build
-```
-
-Los archivos generados quedarán en la carpeta `dist`.
-
-## Vista previa de la versión de producción
-
-Para previsualizar el contenido generado por la compilación:
-
-```bash
-npm run preview
-```
-
-## Linting
-
-Para ejecutar ESLint y revisar el código:
-
-```bash
-npm run lint
-```
 
 ## Estructura principal
 
