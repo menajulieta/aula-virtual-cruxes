@@ -1,18 +1,70 @@
-# React + Vite
+# Aula Virtual Cruxes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web construida con React y Vite.
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 18 o superior
+- npm (incluido con Node.js)
 
-## React Compiler
+## Instalación
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+1. Abre una terminal en la carpeta del proyecto:
 
-Note: This will impact Vite dev & build performances.
+   ```bash
+   cd c:/Users/fmerc/OneDrive/Desktop/aula-virtual-cruxes
+   ```
 
-## Expanding the ESLint configuration
+2. Instala las dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   npm install
+   ```
+
+## Ejecutar en modo de desarrollo
+
+Para iniciar el servidor de desarrollo con recarga en caliente:
+
+```bash
+npm run dev
+```
+
+Luego abre la URL que indica la terminal (generalmente `http://localhost:5173`).
+
+## Generar versión de producción
+
+Para compilar la aplicación para producción:
+
+```bash
+npm run build
+```
+
+Los archivos generados quedarán en la carpeta `dist`.
+
+## Vista previa de la versión de producción
+
+Para previsualizar el contenido generado por la compilación:
+
+```bash
+npm run preview
+```
+
+## Linting
+
+Para ejecutar ESLint y revisar el código:
+
+```bash
+npm run lint
+```
+
+## Estructura principal
+
+- `src/main.jsx`: punto de entrada de la aplicación
+- `src/CruxesApp.jsx`: componente principal
+- `src/app.router.jsx`: rutas de la aplicación
+- `src/views/`: páginas y layouts
+- `src/components/`: componentes reutilizables
+
+## Notas
+
+Esta aplicación usa Vite, React 19 y Tailwind CSS.
